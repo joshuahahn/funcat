@@ -22,6 +22,8 @@ def parse_py(function_name, path):
             function_body = "\n".join(code.splitlines()[start:end])
             print(function_body)
 
+            return
+
     print("error: function definition not found")
     return
 
